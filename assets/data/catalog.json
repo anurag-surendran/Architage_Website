@@ -1,0 +1,1168 @@
+{
+  "_About": "Architage website catalog. Edit text here and the website updates. Image paths are relative to the website folder. Keep ProjectName values short, lowercase and with hyphens: they are used in page links. Google Maps: paste the studio's share link (Google Maps > Share > Send a link) in Company.GoogleMapsLink, and the embed code or its src (Share > Embed a map) in Company.GoogleMapsEmbed. Team members: add one entry per person under About.Team.Members; Each has ImageUrl (photo), Name, Role and Description (one or two short sentences); leave any of them empty to hide it. Founders: each has Tagline, Highlights, Bio (shown on the card), Sections (shown under 'Read full profile'; each has Heading, Paragraphs and optional Points with Title and Description) and Quote. Directors: About.Directors.Members, each with Name, Role, Credentials, Bio, ImageUrl. Portraits look best as 4:5 head-and-shoulders crops; ImagePosition (e.g. '50% 30%') moves the crop.",
+  "Company": {
+    "Name": "Architage",
+    "LegalName": "Architage India Pvt. Ltd.",
+    "FormerName": "Kerala Homes",
+    "Since": 2014,
+    "Tagline": "Crafting homes. Creating legacies.",
+    "BrandLine": "Tradition | Architecture | Heritage",
+    "TopBarText": "Design and build, end to end, across India",
+    "FooterDescription": "Architage India Pvt. Ltd., formerly Kerala Homes. Premium homes designed and built end to end, across India.",
+    "HomesDelivered": "50+",
+    "Phones": [
+      "+91 9074001122",
+      "+91 9074334455"
+    ],
+    "WhatsAppNumber": "919074001122",
+    "WhatsAppMessage": "Enquiry",
+    "Instagram": "https://www.instagram.com/architage.in",
+    "InstagramHandle": "@architage.in",
+    "OpeningHours": "Monday to Saturday, 9:30 am to 6 pm",
+    "Email": "",
+    "Address": "",
+    "GoogleMapsLink": "https://www.google.com/maps/place/Architage/@10.600554,76.0547601,17z/data=!4m6!3m5!1s0x3ba7950045ecb3a3:0x485c7fb2c3257c85!8m2!3d10.600554!4d76.057335!16s%2Fg%2F11p2wj52n4",
+    "GoogleMapsEmbed": "https://maps.google.com/maps?q=10.600554,76.057335&z=16&output=embed"
+  },
+  "Home_Hero": {
+    "Description": "We take care of your home end to end: design, approvals, construction and interiors, right up to the day we hand you the keys. Premium homes across India, rooted in Kerala's craft.",
+    "Steps": [
+      "Design",
+      "Approvals",
+      "Construction",
+      "Interiors",
+      "Your keys"
+    ]
+  },
+  "Home_PageSliders": [
+    {
+      "Name": "Tharavadu",
+      "ImageName": "aneesh-chemmannoor-elevation-1.jpg",
+      "Description": "Kerala Traditional home, Vadakara",
+      "ProjectName": "sandeep-vatakara-residence",
+      "ImagePosition": "50% 50%"
+    },
+    {
+      "Name": "Samudra",
+      "ImageName": "sachin-greeshma-elevation-3.jpg",
+      "Description": "Kerala Traditional home, Nattika",
+      "ProjectName": "sachin-residence",
+      "ImagePosition": "50% 50%"
+    },
+    {
+      "Name": "Anavathi Homes",
+      "ImageName": "aneesh-chemmannoor-elevation-a1.jpg",
+      "Description": "Kerala Traditional home, Guruvayoor",
+      "ProjectName": "aneesh-chemmannur-residence",
+      "ImagePosition": "50% 50%"
+    },
+    {
+      "Name": "Vaisyam Manzil",
+      "ImageName": "jaleel-kariyad-01.jpg",
+      "Description": "Kariyadu, Vadakkancheri",
+      "ProjectName": "abdul-jaleel-residence",
+      "ImagePosition": "50% 50%"
+    },
+    {
+      "Name": "Mekkattukulam Villa",
+      "ImageName": "joshy-elevation-1.jpg",
+      "Description": "Arampilly Thrissur",
+      "ProjectName": "joshy-mekkattukulam-residence",
+      "ImagePosition": "50% 50%"
+    }
+  ],
+  "Home_Stats": [
+    {
+      "Title": "12 years",
+      "Description": "of designing and building homes"
+    },
+    {
+      "Title": "50+ homes",
+      "Description": "handed over to families"
+    },
+    {
+      "Title": "Across India",
+      "Description": "wherever your plot is"
+    },
+    {
+      "Title": "One team",
+      "Description": "from first sketch to handover"
+    }
+  ],
+  "Home_Journey": [
+    {
+      "Name": "Meet & listen",
+      "Description": "Plot visit, your family's needs and budget."
+    },
+    {
+      "Name": "Design & 3D",
+      "Description": "Plans and 3D views before a brick is laid."
+    },
+    {
+      "Name": "Approvals",
+      "Description": "Permits handled by our team."
+    },
+    {
+      "Name": "Construction",
+      "Description": "Stage-wise build with quality checks."
+    },
+    {
+      "Name": "Interiors",
+      "Description": "Joinery, finishes, lighting, garden."
+    },
+    {
+      "Name": "Keys in your hand",
+      "Description": "Move in, with a lifetime warranty."
+    }
+  ],
+  "Home_SignatureProject": {
+    "ProjectName": "aneesh-chemmannur-residence",
+    "Heading": "A long veranda for a family of eleven",
+    "Description": "Three generations wanted to live under one roof without living in each other's way. We stretched the home along a single 38-metre veranda, with private wings and one shared courtyard at its heart."
+  },
+  "Home_FeaturedProjects": [
+    "sandeep-residence",
+    "subash-baskar-residence",
+    "shihaj-residence"
+  ],
+  "Home_Lineage": {
+    "Heading": "Same people. A bigger promise.",
+    "Paragraphs": [
+      "For twelve years, families knew us as Kerala Homes. In 2026 we became Architage, so we can offer design, construction, interiors and restoration as one company.",
+      "The mother elephant and her calf in our logo say what we care about most: homes that keep a family together, built to last for the next generation."
+    ],
+    "FromYear": 2014,
+    "ToYear": 2026
+  },
+  "Reviews": [
+    {
+      "Name": "Anil & Deepa Menon",
+      "Project": "Aranya Villa, Kozhikode",
+      "ProjectName": "",
+      "Quote": "We were in Dubai for the whole build. Every Friday the photos came in on WhatsApp, and every payment matched a stage we could see. We walked into a finished home.",
+      "Rating": 5,
+      "IsFeatured": true,
+      "IsSample": false,
+      "ImageUrl": "assets/img/aneesh-chemmannoor-elevation-a1.jpg"
+    },
+    {
+      "Name": "Dr. Ramesh & Dr. Lakshmi Nair",
+      "Project": "Nalukettu Residence, Thrissur",
+      "ProjectName": "",
+      "Quote": "We signed off the 3D in Muscat and came home to exactly that house, down to the lamps on the pillars.",
+      "Rating": 5,
+      "IsFeatured": false,
+      "IsSample": true
+    },
+    {
+      "Name": "Suresh Pillai",
+      "Project": "Mazhavil House, Kottayam",
+      "ProjectName": "",
+      "Quote": "Every payment matched a stage we could see finished. No surprises and no extra bills at the end.",
+      "Rating": 5,
+      "IsFeatured": false,
+      "IsSample": true
+    },
+    {
+      "Name": "Fathima & Rashid",
+      "Project": "Pallikkara House, Ernakulam",
+      "ProjectName": "",
+      "Quote": "They listened to my mother about the pooja room and the kitchen. She says it feels like our old tharavad, only brighter.",
+      "Rating": 5,
+      "IsFeatured": false,
+      "IsSample": true
+    },
+    {
+      "Name": "Thomas Mathew",
+      "Project": "Kayal Retreat, Alappuzha",
+      "ProjectName": "",
+      "Quote": "The monsoon came two months after we moved in. Not one leak, and the courtyard drained perfectly.",
+      "Rating": 5,
+      "IsFeatured": false,
+      "IsSample": true
+    },
+    {
+      "Name": "Priya & Arun Varma",
+      "Project": "Courtyard home, Kannur",
+      "Quote": "The 3D walkthrough let my parents see their rooms before a single brick was laid.",
+      "Rating": 5,
+      "IsFeatured": false,
+      "IsSample": true
+    },
+    {
+      "Name": "Joseph Kurian",
+      "Project": "Heritage home, Kottayam",
+      "Quote": "They restored our tharavad roof without losing a single original rafter.",
+      "Rating": 5,
+      "IsFeatured": false,
+      "IsSample": true
+    }
+  ],
+  "Portfolio": [
+    {
+      "ProjectName": "sachin-residence",
+      "Title": "Sachin Residence",
+      "ShortDescription": "A beautifully crafted traditional Kerala home featuring elegant sloping terracotta roofs, a welcoming front veranda, and spacious landscaped surroundings.",
+      "Category": "Traditional",
+      "ImageUrl": "assets/img/sachin-greeshma-elevation-3.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Nattika, Thriprayar",
+      "District": "Thrissur",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "2,600 sq.ft",
+      "Bedrooms": 3,
+      "Style": "Traditional Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "A timeless Kerala home",
+      "BriefDescription": "The project is a 2,600 sq.ft traditional 3BHK residence in Nattika, Thriprayar, designed with a blend of classic Kerala architectural character and comfortable modern living.",
+      "OurResponseTitle": "Traditional elegance with modern comfort",
+      "OurResponseDescription": "The design features distinctive sloping terracotta tiled roofs, multiple gable elements, a spacious covered front veranda, traditional columns, and a dedicated car porch. Large windows and thoughtfully planned outdoor spaces enhance natural light, ventilation, and the overall living experience.",
+      "ResultTitle": "A dream home taking shape",
+      "ResultDescription": "Currently under construction, the residence is taking shape as a beautiful traditional Kerala home, combining timeless architectural elements with practical spaces for contemporary family living.",
+      "Images": [
+        "assets/img/sachin-greeshma-elevation-3.jpg",
+        "assets/img/sachin-greeshma-elevation-4.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Sachin Jayaprakash"
+      }
+    },
+    {
+      "ProjectName": "shihaj-residence",
+      "Title": "Shihaj Residence",
+      "ShortDescription": "A stunning contemporary Kerala residence featuring elegant sloping roofs, striking natural stone cladding, spacious balconies, and a beautifully designed double-car porch. The home blends modern architectural elements with warm, inviting materials and thoughtfully designed outdoor spaces.",
+      "Category": "Contemporary",
+      "ImageUrl": "assets/img/shihaj-kaiparambu-elevation-1.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Puthur, Thrissur",
+      "District": "Thrissur",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "3,900 sq.ft",
+      "Bedrooms": 4,
+      "Style": "Contemporary Kerala",
+      "Services": "Not specified",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "Contemporary elegance with timeless character",
+      "BriefDescription": "Shihaj Residence is a 3,900 sq.ft 4BHK home located in Puthur, Thrissur. The architectural design combines contemporary styling with distinctive pitched roofs, natural stone textures, and elegant exterior detailing. Designed to create a spacious and welcoming family home, the residence brings together visual appeal, functional spaces, and modern residential comfort.",
+      "OurResponseTitle": "A distinctive blend of modern design and natural textures",
+      "OurResponseDescription": "The elevation is defined by multiple sloping roof forms with dark grey roofing, creating an attractive architectural silhouette. A prominent stone-clad feature wall adds texture and character, while the clean white exterior, exposed brick accents, and arched openings introduce warmth and visual contrast. The spacious first-floor balcony with elegant railings overlooks the welcoming entrance, while the expansive covered double-car porch provides convenient parking. Carefully positioned windows, landscaped surroundings, and a generous outdoor approach complete the overall design.",
+      "ResultTitle": "A beautiful family home taking shape",
+      "ResultDescription": "Currently under construction, Shihaj Residence is taking shape as a distinctive contemporary home that balances architectural character with everyday functionality. Its combination of elegant rooflines, natural textures, spacious outdoor areas, and carefully designed parking facilities creates a welcoming residential environment for modern family living.",
+      "Images": [
+        "assets/img/shihaj-kaiparambu-elevation-1.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Shihaj"
+      }
+    },
+    {
+      "ProjectName": "nijil-vj-residence",
+      "Title": "Nijil Residence",
+      "ShortDescription": "A distinctive 4BHK Kerala residence featuring elegant multi-level sloping tiled roofs, traditional arched windows, colourful glass accents, exposed brick detailing and a spacious welcoming veranda.",
+      "Category": "Traditional",
+      "ImageUrl": "assets/img/nijil-arampilly-elevation-2.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Thrissur",
+      "District": "Thrissur",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "3,600 sq.ft",
+      "Bedrooms": 4,
+      "Style": "Contemporary Traditional Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "Traditional charm with distinctive architectural character",
+      "BriefDescription": "Nijil Residence is a spacious 3,600 sq.ft 4BHK home in Thrissur, thoughtfully designed to celebrate traditional Kerala architectural elements while incorporating contemporary design details. The residence showcases a distinctive roof composition, inviting outdoor spaces and carefully considered facade treatments.",
+      "OurResponseTitle": "A striking blend of tradition and contemporary detailing",
+      "OurResponseDescription": "The architectural design features multiple interconnected sloping tiled roofs, prominent gable elements and a welcoming extended front veranda. Arched timber-style windows with colourful glass accents introduce a traditional character, while exposed brickwork and dark natural stone cladding create visual contrast across the facade. Circular windows, decorative upper-level glazing and a dedicated entrance landscape further enhance the home's architectural identity.",
+      "ResultTitle": "A distinctive family residence taking shape",
+      "ResultDescription": "Currently under construction, Nijil Residence is taking shape as a spacious 4BHK family home that brings together traditional Kerala-inspired architecture and contemporary facade detailing. Its layered rooflines, welcoming veranda and thoughtfully composed exterior are designed to create a memorable and comfortable residential environment.",
+      "Images": [
+        "assets/img/nijil-arampilly-elevation-2.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Nijil VJ"
+      }
+    },
+    {
+      "ProjectName": "abdul-jaleel-residence",
+      "Title": "Abdul Jaleel Residence",
+      "ShortDescription": "An elegant contemporary Kerala residence featuring beautiful multi-level tiled roofs, decorative gable screens, a welcoming traditional veranda, an upper-level balcony and thoughtfully landscaped outdoor spaces.",
+      "Category": "Traditional",
+      "ImageUrl": "assets/img/jaleel-kariyad-01.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Kariyad, Wadakkanchery",
+      "District": "Thrissur",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "4,000 sq.ft",
+      "Bedrooms": 5,
+      "Style": "Contemporary Traditional Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "A timeless expression of Kerala architecture",
+      "BriefDescription": "Abdul Jaleel Residence is a spacious 4,000 sq.ft 5BHK home located in Kariyad, Wadakkanchery. The architectural design brings together the timeless charm of traditional Kerala homes and refined contemporary detailing, creating an elegant residence with a strong visual identity and welcoming outdoor spaces.",
+      "OurResponseTitle": "Traditional craftsmanship meets contemporary elegance",
+      "OurResponseDescription": "The residence features an impressive arrangement of interconnected sloping tiled roofs and prominent triangular gables with decorative perforated panels. A welcoming front veranda with traditional columns and wooden railings creates a warm entrance, while the upper-level balcony adds architectural depth. The facade is further enhanced by timber-finish doors and windows, an elegant arched recessed feature, cascading greenery and carefully integrated exterior lighting. Thoughtful landscaping and a patterned driveway complete the overall composition.",
+      "ResultTitle": "An elegant family home taking shape",
+      "ResultDescription": "Currently under construction, Abdul Jaleel Residence is taking shape as a spacious and distinctive family home. Its carefully composed rooflines, traditional architectural elements, inviting veranda and landscaped surroundings bring together comfort, elegance and the enduring character of Kerala residential architecture.",
+      "Images": [
+        "assets/img/jaleel-kariyad-01.jpg",
+        "assets/img/jaleel-kariyad-02.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Abdul Jaleel"
+      }
+    },
+    {
+      "ProjectName": "sandeep-residence",
+      "Title": "Sandeep Residence",
+      "ShortDescription": "A charming traditional Kerala residence featuring a distinctive multi-tiered tiled roof, elegant wooden pillars, a welcoming front veranda and beautifully detailed traditional architectural elements.",
+      "Category": "Traditional",
+      "ImageUrl": "assets/img/sandeep-dance-class-2.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Thrippunithura",
+      "District": "Ernakulam",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "1,100 sq.ft",
+      "Bedrooms": 1,
+      "Style": "Traditional Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "A timeless expression of traditional Kerala living",
+      "BriefDescription": "Sandeep Residence is a thoughtfully designed 1,100 sq.ft 1BHK home located in Thrippunithura, Ernakulam. The design celebrates traditional Kerala architectural character through its distinctive layered roof composition, natural material-inspired finishes and welcoming veranda, creating a compact yet visually rich residential space.",
+      "OurResponseTitle": "Traditional craftsmanship with distinctive roof architecture",
+      "OurResponseDescription": "The architectural design is defined by an impressive multi-tiered sloping tiled roof with carefully detailed gable elements and extended eaves. Traditional wooden pillars frame the spacious front veranda, while the timber-finish entrance door and windows reinforce the home's classic character. Decorative wall artwork, warm exterior lighting and thoughtfully integrated greenery add personality to the facade. The geometric stepping-stone pathway creates a simple and elegant approach to the entrance.",
+      "ResultTitle": "A compact home with timeless character",
+      "ResultDescription": "Currently under construction, Sandeep Residence is taking shape as a distinctive traditional Kerala home. Despite its compact footprint, the design creates a strong architectural identity through its layered rooflines, welcoming veranda and carefully considered traditional details.",
+      "Images": [
+        "assets/img/sandeep-dance-class-2.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Sandeep"
+      }
+    },
+    {
+      "ProjectName": "aneesh-chemmannur-residence",
+      "Title": "Chemmannur Residence",
+      "ShortDescription": "A distinctive traditional Kerala residence featuring an elaborate multi-layered tiled roof, a central open courtyard, elegant gable details and a spacious traditional veranda, blending heritage-inspired architecture with contemporary family living.",
+      "Category": "Traditional",
+      "ImageUrl": "assets/img/aneesh-chemmannoor-elevation-1.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Guruvayur",
+      "District": "Thrissur",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "2,600 sq.ft",
+      "Bedrooms": 4,
+      "Style": "Traditional Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "A traditional home centred around the courtyard",
+      "BriefDescription": "Aneesh Chemmannur Residence is a thoughtfully designed 2,600 sq.ft 4BHK home located in Guruvayur, Thrissur. Inspired by traditional Kerala residential architecture, the design brings together multiple sloping tiled roofs, a central open courtyard and a welcoming veranda. The combination of traditional architectural proportions and contemporary detailing creates a distinctive home with a strong connection to Kerala's architectural heritage.",
+      "OurResponseTitle": "Celebrating Kerala architecture through courtyard planning",
+      "OurResponseDescription": "The architectural design is defined by an elaborate composition of interconnected sloping tiled roofs, prominent triangular gables and extended eaves. A central open-to-sky courtyard forms an important element of the house, bringing natural light and openness into the internal spaces. The spacious front veranda, supported by traditional columns, creates a welcoming transition between indoor and outdoor living. Timber-finish doors and windows, decorative wooden gable detailing and carefully designed upper-level glazing add depth and character to the facade. The landscaped surroundings and geometric paved pathways complete the overall residential setting.",
+      "ResultTitle": "A timeless traditional residence taking shape",
+      "ResultDescription": "Currently under construction, Aneesh Chemmannur Residence is taking shape as a distinctive family home inspired by traditional Kerala architecture. Its carefully composed rooflines, courtyard-centred planning, welcoming veranda and contemporary detailing bring together architectural heritage, natural openness and comfortable modern living.",
+      "Images": [
+        "assets/img/aneesh-chemmannoor-elevation-1.jpg",
+        "assets/img/aneesh-chemmannoor-elevation-2.jpg",
+        "assets/img/aneesh-chemmannoor-elevation-3.jpg",
+        "assets/img/aneesh-chemmannoor-elevation-4.jpg",
+        "assets/img/aneesh-chemmannoor-elevation-a1.jpg",
+        "assets/img/aneesh-chemmannoor-elevation-a4-1.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Aneesh Chemmannur"
+      }
+    },
+    {
+      "ProjectName": "joshy-mekkattukulam-residence",
+      "Title": "Joshy Mekkattukulam Residence",
+      "ShortDescription": "A contemporary Kerala residence featuring distinctive sloping tiled roofs, bold triangular gables, natural stone and brick accents, an elegant upper-floor balcony and a welcoming landscaped veranda.",
+      "Category": "Contemporary",
+      "ImageUrl": "assets/img/joshy-elevation-1.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Thrissur",
+      "District": "Thrissur",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "2,200 sq.ft",
+      "Bedrooms": 3,
+      "Style": "Contemporary Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "Contemporary living with distinctive Kerala character",
+      "BriefDescription": "Joshy Mekkattukulam Residence is a thoughtfully designed 2,200 sq.ft 3BHK home located in Thrissur. The architectural concept combines contemporary residential planning with traditional Kerala-inspired sloping roof forms. A carefully selected combination of natural stone, exposed brick, timber finishes and clean exterior surfaces gives the residence a distinctive architectural identity.",
+      "OurResponseTitle": "A contemporary composition of textures and rooflines",
+      "OurResponseDescription": "The design features multiple pitched tiled roofs with prominent triangular gables, creating an interesting composition of intersecting architectural volumes. The exterior combines clean white surfaces with natural stone cladding and exposed brick accents to introduce warmth and texture. A spacious covered veranda establishes a welcoming entrance, while the upper-level balcony adds depth and openness to the facade. Distinctive elements such as the circular feature window, decorative perforated screen, timber-finish windows and cascading greenery further enhance the architectural character.",
+      "ResultTitle": "A distinctive contemporary family home taking shape",
+      "ResultDescription": "Currently under construction, Joshy Mekkattukulam Residence is taking shape as a thoughtfully designed 3BHK family home. Its combination of expressive roof forms, natural material accents, comfortable outdoor spaces and contemporary detailing creates a balanced residential design that reflects modern living with a connection to Kerala's architectural character.",
+      "Images": [
+        "assets/img/joshy-elevation-1.jpg",
+        "assets/img/joshy-elevation-2.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Joshy Mekkattukulam"
+      }
+    },
+    {
+      "ProjectName": "anoop-vijayan-residence",
+      "Title": "Anoop Vijayan Residence",
+      "ShortDescription": "A striking contemporary Kerala residence featuring intersecting pitched roofs, bold triangular gables, natural stone cladding, warm timber accents and beautifully integrated vertical greenery.",
+      "Category": "Contemporary",
+      "ImageUrl": "assets/img/anoop-avanoor-elevation-5.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Avanur",
+      "District": "Thrissur",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "2,900 sq.ft",
+      "Bedrooms": 4,
+      "Style": "Contemporary Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "Modern architecture inspired by natural elements",
+      "BriefDescription": "Anoop Vijayan Residence is a thoughtfully designed 2,900 sq.ft 4BHK home located in Avanur, Thrissur. The architectural concept combines contemporary residential design with traditional pitched roof forms, creating a distinctive composition of interconnected volumes. Natural stone textures, timber accents, generous glazing and integrated greenery contribute to a warm and sophisticated residential environment.",
+      "OurResponseTitle": "Contemporary forms with natural material expressions",
+      "OurResponseDescription": "The design is characterized by multiple intersecting pitched roofs and prominent triangular gables that create visual depth across the elevation. Clean white exterior surfaces are complemented by dark natural stone cladding and warm exposed brick detailing. Large glazed openings and timber-finish windows enhance the facade, while the spacious covered veranda provides a welcoming outdoor living space. An upper-level balcony, distinctive circular architectural detailing, decorative perforated screens and cascading greenery introduce additional character. The landscaped surroundings further strengthen the connection between the residence and its natural environment.",
+      "ResultTitle": "A contemporary family residence taking shape",
+      "ResultDescription": "Currently under construction, Anoop Vijayan Residence is taking shape as a distinctive 4BHK family home. The combination of expressive roof geometry, natural material textures, generous outdoor spaces and integrated greenery creates a contemporary architectural statement that balances modern aesthetics with a comfortable residential atmosphere.",
+      "Images": [
+        "assets/img/anoop-avanoor-elevation-5.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Anoop Vijayan"
+      }
+    },
+    {
+      "ProjectName": "sandeep-vatakara-residence",
+      "Title": "Sandeep Residence",
+      "ShortDescription": "A spacious traditional Kerala residence featuring an elaborate multi-level tiled roof, beautifully detailed triangular gables, an inviting front veranda and timeless architectural elements.",
+      "Category": "Traditional",
+      "ImageUrl": "assets/img/aneesh-chemmannoor-elevation-1.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Vatakara",
+      "District": "Kozhikode",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "3,800 sq.ft",
+      "Bedrooms": 4,
+      "Style": "Traditional Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "A timeless celebration of Kerala architecture",
+      "BriefDescription": "Sandeep Residence is a spacious 3,800 sq.ft 4BHK home located in Vatakara, Kozhikode. Inspired by traditional Kerala residential architecture, the design showcases an elaborate arrangement of sloping tiled roofs, distinctive gable elements and a welcoming front veranda. The architectural composition emphasizes traditional proportions, generous covered outdoor spaces and a warm residential character.",
+      "OurResponseTitle": "Traditional roof architecture with elegant detailing",
+      "OurResponseDescription": "The architectural design is defined by multiple interconnected sloping tiled roofs arranged at different heights, creating a visually striking roof composition. Prominent triangular gables with decorative detailing add character to the elevation, while the extended roof overhangs provide shade and reinforce the traditional architectural language. A spacious front veranda supported by elegant columns creates a welcoming transition between indoor and outdoor spaces. Timber-finish doors and windows, clean white exterior walls and warm architectural lighting complete the facade. The landscaped garden and geometric paved pathways enhance the overall residential setting.",
+      "ResultTitle": "A spacious traditional family home taking shape",
+      "ResultDescription": "Currently under construction, Sandeep Residence is taking shape as a distinctive 4BHK family home inspired by Kerala's traditional architectural heritage. Its layered roof composition, welcoming veranda and carefully detailed exterior bring together timeless design character and comfortable contemporary family living.",
+      "Images": [
+        "assets/img/aneesh-chemmannoor-elevation-1.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Sandeep"
+      }
+    },
+    {
+      "ProjectName": "subash-baskar-residence",
+      "Title": "Subash Baskar Residence",
+      "ShortDescription": "A thoughtfully designed contemporary Kerala home featuring distinctive pitched tiled roofs, natural stone-finish cladding, an elegant upper-floor balcony and a central open courtyard.",
+      "Category": "Contemporary",
+      "ImageUrl": "assets/img/subash-baskar-1.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Nilambur",
+      "District": "Malappuram",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "1,300 sq.ft",
+      "Bedrooms": 3,
+      "Style": "Contemporary Kerala",
+      "Services": "Architecture, design, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "Modern living framed by traditional roof forms",
+      "BriefDescription": "Subash Baskar Residence is a thoughtfully designed 1,300 sq.ft 3BHK home located in Nilambur, Malappuram. The architectural concept combines contemporary residential design with traditional pitched roof elements, creating a distinctive composition of building volumes. Natural stone-finish surfaces, generous openings and a central open courtyard contribute to a balanced design that emphasizes natural light, visual character and comfortable family living.",
+      "OurResponseTitle": "A contemporary home with a courtyard-inspired design",
+      "OurResponseDescription": "The residence features a prominent pitched tiled roof with bold triangular gable ends, complemented by clean white exterior surfaces and contrasting stone-finish cladding. The upper-floor balcony with its dark railing adds a contemporary architectural element, while timber-finish windows and carefully positioned openings enhance the facade. A covered entrance porch creates a welcoming transition into the home. The central open-to-sky courtyard, visible in the aerial view, introduces an additional dimension to the spatial composition by allowing natural light and openness within the building. Tropical landscaping and geometric paved pathways complete the exterior setting.",
+      "ResultTitle": "A distinctive contemporary home taking shape",
+      "ResultDescription": "Currently under construction, Subash Baskar Residence is taking shape as a thoughtfully composed 3BHK family home. Its combination of pitched roof architecture, contemporary material finishes, balcony spaces and courtyard-inspired planning creates a distinctive residential environment that brings together modern aesthetics and traditional architectural influences.",
+      "Images": [
+        "assets/img/subash-baskar-1.jpg",
+        "assets/img/subash-baskar-2.jpg"
+      ],
+      "ComparisonImages": [],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Subash Baskar"
+      }
+    },
+    {
+      "ProjectName": "suraj-residence",
+      "Title": "Suraj Residence",
+      "ShortDescription": "A beautifully transformed traditional Kerala residence featuring an elaborate multi-level tiled roof, elegant gable detailing, an inviting veranda and a distinctive landscaped entrance with a decorative water feature.",
+      "Category": "Renovation",
+      "ImageUrl": "assets/img/suraj-3.jpg",
+      "ImagePosition": "50% 50%",
+      "Location": "Kunissery",
+      "District": "Palakkad",
+      "ProjectStatus": "Ongoing",
+      "HandedOver": null,
+      "Plot": "Not specified",
+      "BuiltUpArea": "2,600 sq.ft",
+      "Bedrooms": 4,
+      "Style": "Traditional Kerala",
+      "Services": "Architecture, design, renovation, construction",
+      "BuiltTime": "Ongoing",
+      "BriefTitle": "Transforming tradition into timeless elegance",
+      "BriefDescription": "Suraj Residence is a 2,600 sq.ft 4BHK residential project located in Kunissery, Palakkad. The project showcases the transformation of an existing traditional Kerala residence through an enhanced architectural composition. The redesigned exterior retains the charm of traditional tiled roofing while introducing refined gable details, an improved front veranda and thoughtfully designed outdoor spaces.",
+      "OurResponseTitle": "Reimagining a traditional home with architectural character",
+      "OurResponseDescription": "The redesign focuses on enhancing the existing residence through a distinctive arrangement of interconnected sloping tiled roofs and decorative triangular gables. The front elevation features an extended veranda supported by contemporary dark-finished columns, complemented by traditional timber-finish doors and windows. A raised entrance platform creates a more defined approach to the home, while the landscaped central feature with a decorative Ganesha sculpture and water element introduces a distinctive focal point. Improved exterior finishes, lighting and outdoor arrangements bring a refreshed identity to the residence while preserving its traditional Kerala architectural character.",
+      "ResultTitle": "A renewed identity for a traditional Kerala home",
+      "ResultDescription": "The transformation gives Suraj Residence a refreshed architectural identity through its enhanced roof composition, welcoming veranda and carefully designed outdoor spaces. The combination of traditional design elements and refined contemporary detailing creates a distinctive family residence that celebrates the charm of Kerala architecture.",
+      "Images": [
+        "assets/img/suraj-3.jpg",
+        "assets/img/suraj-2.jpg",
+        "assets/img/suraj-1.jpg"
+      ],
+      "ComparisonImages": [
+        "assets/img/suraj-1.jpg",
+        "assets/img/suraj-3.jpg"
+      ],
+      "Testimonial": {
+        "Quote": "",
+        "Name": "Suraj"
+      }
+    }
+  ],
+  "Services": [
+    {
+      "Id": "architecture",
+      "Name": "Architecture",
+      "Summary": "Site study, plans, 3D views and elevations, and permit drawings for your panchayat or corporation.",
+      "Description": "A home planned for your plot, your family and Kerala's climate: deep eaves for the monsoon, cross-ventilation for the heat, and rooms placed to follow vastu if you wish.",
+      "ImageUrl": "assets/img/aneesh-chemmannoor-elevation-4.jpg",
+      "ImagePosition": "50% 50%",
+      "KeyPoints": [
+        "Plot survey and site study",
+        "Floor plans and elevations",
+        "3D views and walkthrough video",
+        "Vastu-aligned layouts on request",
+        "Structural and MEP drawings",
+        "Permit drawings and approvals"
+      ],
+      "Timelines": [
+        {
+          "Name": "Typical time",
+          "Timeline": "6–9 weeks"
+        },
+        {
+          "Name": "Design revisions",
+          "Timeline": "Up to 3 rounds"
+        },
+        {
+          "Name": "You receive",
+          "Timeline": "3D walkthrough"
+        }
+      ],
+      "ButtonLabel": "Start with a design consultation",
+      "LinkLabel": "See homes we designed",
+      "LinkUrl": "portfolio.html"
+    },
+    {
+      "Id": "turnkey",
+      "Name": "Turnkey construction",
+      "Summary": "Fixed-price building with named material brands, weekly site updates and stage-wise payments.",
+      "Description": "We build what we design, at a fixed price per square foot, with named material brands and weekly updates you can follow from anywhere.",
+      "ImageUrl": "assets/img/joshy-arambilly-elevation-1.jpg",
+      "ImagePosition": "50% 60%",
+      "KeyPoints": [
+        "Fixed-price contract",
+        "Named cement, steel and fittings",
+        "Stage-wise payments",
+        "Quality checks at every stage",
+        "Weekly photo updates on WhatsApp",
+        "10-year structural warranty"
+      ],
+      "Timelines": [
+        {
+          "Name": "Typical time",
+          "Timeline": "8–12 months"
+        },
+        {
+          "Name": "Packages",
+          "Timeline": "Signature, Premium, Luxury"
+        },
+        {
+          "Name": "Warranty",
+          "Timeline": "10 years, structural"
+        }
+      ],
+      "ButtonLabel": "Compare packages",
+      "ButtonUrl": "services.html#packages",
+      "LinkLabel": "See how we build",
+      "LinkUrl": "how-we-work.html"
+    },
+    {
+      "Id": "interiors",
+      "Name": "Interiors",
+      "Summary": "Teak joinery, kitchens, wardrobes and lighting designed together with the architecture.",
+      "Description": "Interiors designed together with the architecture, so the teak joinery, lighting and furniture feel part of the same house.",
+      "ImageUrl": "assets/img/aneesh-chemmannoor-elevation-3.jpg",
+      "ImagePosition": "55% 65%",
+      "KeyPoints": [
+        "Kitchens and wardrobes",
+        "Teak and rosewood joinery",
+        "Lighting design",
+        "Furniture and soft furnishing",
+        "Pooja room and display units",
+        "3D views of every room"
+      ],
+      "Timelines": [
+        {
+          "Name": "Typical time",
+          "Timeline": "2–3 months"
+        },
+        {
+          "Name": "Works with",
+          "Timeline": "Our homes or yours"
+        },
+        {
+          "Name": "You receive",
+          "Timeline": "3D of every room"
+        }
+      ],
+      "ButtonLabel": "Plan your interiors",
+      "LinkLabel": "See interiors",
+      "LinkUrl": "portfolio.html"
+    },
+    {
+      "Id": "landscape",
+      "Name": "Landscape",
+      "Summary": "Courtyards, laterite paths, ponds and native planting that handle the monsoon.",
+      "Description": "Gardens that look good in the dry months and drain well in the monsoon, using laterite, natural stone and native plants.",
+      "ImageUrl": "assets/img/dinesh-nair-elevation-4.jpg",
+      "ImagePosition": "50% 70%",
+      "KeyPoints": [
+        "Courtyards and nadumuttam",
+        "Laterite and stone paths",
+        "Ponds and water features",
+        "Rainwater harvesting",
+        "Native and fruit trees",
+        "Outdoor lighting"
+      ],
+      "Timelines": [
+        {
+          "Name": "Typical time",
+          "Timeline": "4–8 weeks"
+        },
+        {
+          "Name": "Best started",
+          "Timeline": "With the design"
+        },
+        {
+          "Name": "Planting",
+          "Timeline": "Native, low upkeep"
+        }
+      ],
+      "ButtonLabel": "Plan your garden",
+      "LinkLabel": "See gardens",
+      "LinkUrl": "portfolio.html"
+    },
+    {
+      "Id": "restoration",
+      "Name": "Heritage restoration",
+      "Summary": "Careful repair and upgrade of tharavads and old homes, keeping the timber and the soul.",
+      "Description": "We repair and upgrade tharavads and old homes so they suit modern life, while keeping the original timber, tiles and character.",
+      "ImageUrl": "assets/img/suraj-3.jpg",
+      "ImagePosition": "50% 50%",
+      "KeyPoints": [
+        "Condition survey and report",
+        "Timber repair and treatment",
+        "Roof re-tiling",
+        "New bathrooms and kitchen",
+        "Wiring and plumbing upgrade",
+        "Extensions in matching style"
+      ],
+      "Timelines": [
+        {
+          "Name": "Typical time",
+          "Timeline": "4–9 months"
+        },
+        {
+          "Name": "Start with",
+          "Timeline": "A site survey"
+        },
+        {
+          "Name": "You receive",
+          "Timeline": "Condition report"
+        }
+      ],
+      "ButtonLabel": "Book a site survey",
+      "LinkLabel": "See restored homes",
+      "LinkUrl": "portfolio.html#renovation"
+    }
+  ],
+  "Packages_Intro": {
+    "Description": "Three ways to build with us. Every package includes architecture, approvals, construction and one project lead. Your quote follows a free site visit.",
+    "AllInclude": "10-year structural warranty"
+  },
+  "Packages": [
+    {
+      "PackageName": "Signature",
+      "Tagline": "For a well-built family home",
+      "IsMostChosen": false,
+      "Features": [
+        "Floor plans, 3D views and permits",
+        "Laterite or solid block walls",
+        "UltraTech cement, TATA steel",
+        "Vitrified tile flooring",
+        "Jaquar or Cera bath fittings",
+        "Mangalore clay roof tiles",
+        "Weekly photo updates on WhatsApp"
+      ]
+    },
+    {
+      "PackageName": "Premium",
+      "Tagline": "For a home with Kerala character",
+      "IsMostChosen": true,
+      "Features": [
+        "Everything in Signature",
+        "Teak main door, frames and pillars",
+        "Nadumuttam or courtyard design",
+        "Large-format tiles or wooden floors",
+        "Kohler or Grohe bath fittings",
+        "Living and dining interiors",
+        "Landscape plan with laterite paths"
+      ]
+    },
+    {
+      "PackageName": "Luxury",
+      "Tagline": "For a heritage-grade home",
+      "IsMostChosen": false,
+      "Features": [
+        "Everything in Premium",
+        "Hand-carved teak and rosewood work",
+        "Italian marble or Athangudi tiles",
+        "Full home interiors and lighting",
+        "Home automation and solar",
+        "Pool, pond or garden pavilion",
+        "Annual care visits"
+      ]
+    }
+  ],
+  "ServiceCombinations": [
+    {
+      "Name": "Design + build + interiors",
+      "Description": "The full journey, one contract",
+      "Badge": "Most chosen"
+    },
+    {
+      "Name": "Design + build",
+      "Description": "You handle interiors later",
+      "Badge": "Popular"
+    },
+    {
+      "Name": "Design only",
+      "Description": "Use your own builder",
+      "Badge": ""
+    }
+  ],
+  "CommonQuestions": [
+    {
+      "QuestionTitle": "Can you design a home if I already have a builder?",
+      "Answer": "Yes. We provide full drawings and can visit the site at key stages to check that the work matches the design."
+    },
+    {
+      "QuestionTitle": "Do you work outside Kerala?",
+      "Answer": "Yes. We design and build homes across India. Site visits and supervision are planned with you at the start."
+    },
+    {
+      "QuestionTitle": "Can I follow the work from abroad?",
+      "Answer": "Yes. You get weekly photo updates and quality reports on WhatsApp, plus a monthly video call with your project lead."
+    },
+    {
+      "QuestionTitle": "Do you follow vastu?",
+      "Answer": "If you wish, yes. Our architects plan room placement, entrances and the pooja room to follow vastu, and explain each choice."
+    }
+  ],
+  "HowWeWork": {
+    "Summary": [
+      {
+        "Title": "12–16 months",
+        "Description": "for a typical 3,000 sq.ft home"
+      },
+      {
+        "Title": "One project lead",
+        "Description": "from your first call to handover"
+      },
+      {
+        "Title": "Every Friday",
+        "Description": "photos and notes from your site"
+      }
+    ],
+    "Stages": [
+      {
+        "Name": "Meet & listen",
+        "Duration": "Week 1, free of charge",
+        "Description": "We visit your plot, talk with the whole family and understand how you live, what you love about Kerala homes, and what you want to spend.",
+        "ImageUrl": "assets/img/aneesh-chemmannoor-elevation-3.jpg",
+        "YouReceive": [
+          "Site visit and plot assessment",
+          "Written design brief",
+          "Budget range for your home"
+        ],
+        "Payment": "None"
+      },
+      {
+        "Name": "Concept & 3D",
+        "Duration": "Weeks 2–5",
+        "Description": "We design two layout options, then refine your choice into full floor plans and 3D views you can walk through on screen before anything is built.",
+        "ImageUrl": "",
+        "YouReceive": [
+          "Two layout concepts",
+          "Final floor plans and elevations",
+          "3D views and walkthrough video",
+          "Detailed cost estimate"
+        ],
+        "Payment": "Design fee, 10%"
+      },
+      {
+        "Name": "Approvals",
+        "Duration": "Weeks 6–9",
+        "Description": "We prepare permit drawings and handle the panchayat or corporation approval, while you sign a fixed-price contract with a stage-wise payment plan.",
+        "ImageUrl": "",
+        "YouReceive": [
+          "Building permit",
+          "Structural and MEP drawings",
+          "Fixed-price contract",
+          "Your project lead's direct number"
+        ],
+        "Payment": "Booking, 10%"
+      },
+      {
+        "Name": "Construction",
+        "Duration": "8–12 months",
+        "Description": "Foundation, walls, slab and roof, each checked by our engineers before the next begins. You get every check and every photo on WhatsApp.",
+        "ImageUrl": "assets/img/subash-baskar-2.jpg",
+        "YouReceive": [
+          "Weekly photo and video updates",
+          "Quality check report per stage",
+          "Monthly call with your lead"
+        ],
+        "Payment": "5 stages, 60%"
+      },
+      {
+        "Name": "Interiors & garden",
+        "Duration": "2–3 months",
+        "Description": "Floors, joinery, kitchen, lighting and landscape come together. You choose finishes from samples in the studio or on a video call.",
+        "ImageUrl": "",
+        "YouReceive": [
+          "Material and colour selection",
+          "Interior and garden installation",
+          "Final snag walk-through"
+        ],
+        "Payment": "Finishing, 15%"
+      },
+      {
+        "Name": "Handover",
+        "Duration": "House-warming",
+        "Description": "We hand over the keys with every document in one folder, and we stay in touch with a one-year care visit and a 10-year structural warranty.",
+        "ImageUrl": "",
+        "YouReceive": [
+          "Keys and as-built drawings",
+          "Warranty certificate",
+          "Care visit after one year"
+        ],
+        "Payment": "Handover, 5%"
+      }
+    ],
+    "PaymentPlan": [
+      {
+        "Name": "Design fee, after concept approval",
+        "Percentage": 10
+      },
+      {
+        "Name": "Booking, with the contract",
+        "Percentage": 10
+      },
+      {
+        "Name": "Foundation to roof, across 5 stages",
+        "Percentage": 60
+      },
+      {
+        "Name": "Interiors and finishing",
+        "Percentage": 15
+      },
+      {
+        "Name": "Handover",
+        "Percentage": 5
+      }
+    ],
+    "Promises": [
+      {
+        "Title": "Checked at every stage",
+        "Description": "Our engineers run quality checks at each stage, and you get the report before you pay."
+      },
+      {
+        "Title": "Follow it from anywhere",
+        "Description": "Weekly photos, quality reports and a monthly video call, whether you are in Kochi or in Dubai."
+      },
+      {
+        "Title": "Warranty you can hold",
+        "Description": "A written 10-year structural warranty and a care visit one year after you move in."
+      }
+    ]
+  },
+  "About": {
+    "Heading": "We build homes for families, not just for plots.",
+    "Description": "Architage began as Kerala Homes in 2014. Twelve years and many house-warmings later, we are a design and build company with one belief: a good Kerala home should serve the family that lives in it today, and the one that inherits it.",
+    "ImageUrl": "assets/img/aneesh-chemmannoor-elevation-2.jpg",
+    "LogoMeaning": [
+      {
+        "Title": "Mother & calf",
+        "Description": "Elephants walk as a family. Our homes are built for parents, children and the generations that follow."
+      },
+      {
+        "Title": "Folded shapes",
+        "Description": "The origami lines stand for precise, modern design, carefully planned before building begins."
+      },
+      {
+        "Title": "Teak house",
+        "Description": "Warm wood and a sloping roof: the craft and comfort of a traditional Kerala home."
+      }
+    ],
+    "Timeline": [
+      {
+        "Year": 2014,
+        "Title": "Kerala Homes begins",
+        "Description": "A small team starts designing and building homes in central Kerala."
+      },
+      {
+        "Year": 2018,
+        "Title": "Design studio opens",
+        "Description": "An in-house architecture and 3D team joins, so every home is designed and built by us."
+      },
+      {
+        "Year": 2022,
+        "Title": "Heritage work",
+        "Description": "We start restoring tharavads and add interiors and landscape services."
+      },
+      {
+        "Year": 2026,
+        "Title": "Becoming Architage",
+        "Description": "Kerala Homes becomes Architage India Pvt. Ltd., building homes across India."
+      }
+    ],
+    "Values": [
+      {
+        "Name": "Tradition",
+        "Description": "Sloping roofs, verandas, courtyards and local materials, used because they work in Kerala's climate."
+      },
+      {
+        "Name": "Architecture",
+        "Description": "Every home is designed by qualified architects for its own plot and family. No copied plans."
+      },
+      {
+        "Name": "Heritage",
+        "Description": "Homes built strong enough and beautiful enough to hand down, with a written lifetime warranty."
+      }
+    ],
+    "People": {
+      "Heading": "The people behind Architage",
+      "Tagline": "Building with experience. Creating with passion. Preserving our heritage.",
+      "Description": "Architage India Private Limited is driven by a shared vision to bring traditional architecture back into contemporary living. Founded on a passion for heritage homes and meaningful construction, the company brings together architectural expertise, industry experience and business vision.",
+      "Belief": "Our founders share a common belief that a home is more than just a structure. It is a reflection of culture, identity, craftsmanship and generations of memories."
+    },
+    "Founders": [
+      {
+        "Name": "Subin Pangil",
+        "Role": "Founder | Architage India Private Limited",
+        "Tagline": "Preserving Architectural Heritage. Creating Timeless Living Spaces.",
+        "Highlights": [
+          "Architecture graduate, Dr. C. V. Raman University",
+          "12+ years in architecture and construction",
+          "10+ Illams and Nalukettu homes transformed"
+        ],
+        "Bio": [
+          "Subin Pangil is the Founder of Architage India Private Limited, an architecture and construction professional with over 12 years of experience in the construction and architectural field. An architecture graduate from Dr. C. V. Raman University, he has developed a deep understanding of traditional Kerala architecture, Vastu Shastra, and the science behind traditional building practices.",
+          "Currently pursuing advanced academic studies in Vastu and traditional architecture, he is also pursuing PhD-level research focused on traditional Kerala architectural practices. His areas of academic interest include the architectural principles of Nalukettu, Mana, Illam and Tharavadu homes, traditional construction measurements, Thachu Shastra, climatic responsiveness, and the relationship between architectural design and natural living."
+        ],
+        "Sections": [
+          {
+            "Heading": "Architectural Expertise & Experience",
+            "Paragraphs": [
+              "Subin has a particular passion for rediscovering traditional Kerala homes and understanding the architectural intelligence behind their construction. Through extensive travel, observation, and practical study, he has explored numerous heritage properties, documenting their structural patterns, traditional measurements, roof slopes, foundation systems, wooden craftsmanship, and spatial arrangements.",
+              "He strongly believes that traditional homes were designed with a remarkable understanding of natural ventilation, air circulation, sunlight, climatic conditions, and the principles of Vastu.",
+              "One of his notable achievements is the successful transformation of more than 10 traditional Illams and Nalukettu-style houses into homes equipped with modern facilities while retaining their original traditional appearance and architectural character.",
+              "His approach goes beyond visual restoration. He studies the original architectural proportions, structural arrangements, roof measurements, foundation principles, and traditional construction techniques to understand how these elements can be incorporated into contemporary construction."
+            ],
+            "Points": []
+          },
+          {
+            "Heading": "Vision & Architectural Philosophy",
+            "Paragraphs": [
+              "Subin's architectural philosophy is built around one fundamental belief: Traditional architecture should evolve with time, not disappear with time.",
+              "He envisions a future where families can enjoy the comfort and technology of modern homes while experiencing the beauty, cultural identity, and functional wisdom of traditional architecture.",
+              "His approach focuses on:"
+            ],
+            "Points": [
+              {
+                "Title": "Heritage Preservation",
+                "Description": "Retaining the character and architectural identity of traditional Illams, Nalukettu homes, and other heritage structures."
+              },
+              {
+                "Title": "Modern Adaptation",
+                "Description": "Integrating contemporary amenities and modern interior facilities without compromising traditional exterior aesthetics."
+              },
+              {
+                "Title": "Vastu & Natural Living",
+                "Description": "Applying traditional architectural principles with attention to ventilation, air circulation, sunlight, and climatic comfort."
+              },
+              {
+                "Title": "Traditional Construction Knowledge",
+                "Description": "Studying and applying authentic proportions, roof slopes, foundation measurements, and construction techniques."
+              },
+              {
+                "Title": "Research-Driven Design",
+                "Description": "Learning from existing heritage buildings and translating their architectural wisdom into new construction."
+              }
+            ]
+          },
+          {
+            "Heading": "His Vision for Architage",
+            "Paragraphs": [
+              "Through Architage India Private Limited, Subin aims to bring the timeless beauty of traditional Indian architecture into modern homes.",
+              "His mission is to revive the architectural intelligence of our ancestors and transform it into practical, sustainable, and comfortable living spaces for today's generations.",
+              "For him, every traditional home carries a story, a science, and a cultural identity. His ambition is to preserve that legacy through thoughtful architectural design and quality construction."
+            ],
+            "Points": []
+          }
+        ],
+        "Quote": "We don't simply recreate traditional homes; we rediscover the wisdom behind them and bring that timeless architecture into modern living.",
+        "ImageUrl": "assets/img/subin-pangil-portrait.jpg",
+        "ImagePosition": "50% 40%"
+      },
+      {
+        "Name": "Adarsh T",
+        "Role": "Founder | Architage India Private Limited",
+        "Tagline": "Blending Financial Expertise with a Passion for Heritage Architecture",
+        "Highlights": [
+          "MBA, Acharya Bangalore B-School",
+          "8 years in banking and financial management"
+        ],
+        "Bio": [
+          "Adarsh T is the Founder of Architage India Private Limited, bringing together eight years of professional experience in banking and financial management with a deep-rooted passion for traditional Indian architecture, heritage homes, and cultural living.",
+          "An MBA graduate from Acharya Bangalore B-School, Adarsh has developed strong expertise in financial management, cost planning, and financial strategy. His professional background provides a valuable foundation for managing construction costs, financial planning, and delivering quality projects with a practical and sustainable approach.",
+          "Beyond finance, his passion lies in rediscovering India's architectural heritage. Driven by a long-standing interest in traditional homes and the joint-family way of living, he has extensively explored and studied the architectural traditions of both South and North India. His interests include the magnificent Chettinad mansions, the traditional Kerala Nalukettu, and other regional architectural styles that reflect India's cultural richness."
+        ],
+        "Sections": [
+          {
+            "Heading": "Vision & Architectural Philosophy",
+            "Paragraphs": [
+              "Adarsh strongly believes that traditional homes are more than architectural structures; they represent family bonds, cultural identity, generations of memories, and a way of life that deserves to be preserved.",
+              "His vision is to bring traditional architecture into modern living by thoughtfully combining heritage aesthetics, traditional craftsmanship, recycled materials, and contemporary comfort.",
+              "One of his distinctive initiatives is creating an experiential model home that presents the grandeur of a traditional Nalukettu exterior alongside sophisticated, modern interiors, allowing customers to experience how heritage architecture can be adapted to today's lifestyle.",
+              "He is particularly passionate about exploring sustainable construction methods and the creative reuse of traditional and recycled materials to recreate the character and authenticity of heritage homes."
+            ],
+            "Points": []
+          },
+          {
+            "Heading": "His Vision for Architage",
+            "Paragraphs": [
+              "Through Architage India Private Limited, Adarsh aims to redefine the way people experience traditional homes — preserving the architectural identity of the past while embracing the conveniences of modern living."
+            ],
+            "Points": []
+          }
+        ],
+        "Quote": "We should not just build houses that look traditional; we should create homes that preserve the traditions, values, and lifestyle behind them.",
+        "ImageUrl": "assets/img/adarsh-t-portrait.jpg",
+        "ImagePosition": "50% 40%"
+      }
+    ],
+    "Directors": {
+      "Heading": "Our directors",
+      "Description": "",
+      "Members": [
+        {
+          "Name": "Rajeswari",
+          "Role": "Director",
+          "Credentials": "MBA · Finance and project management",
+          "Bio": [
+            "Rajeswari is the Director of Architage. With an MBA and 7 years of experience in finance and project management, she brings the discipline of numbers and schedules to something deeply personal: building a family's home.",
+            "That background shapes how Architage works: clear fixed prices, payments tied to completed stages, and projects planned before the first brick is laid. Families always know what they are paying for and what comes next.",
+            "Rajeswari has a lasting love for traditional Kerala houses. She believes homes hold memories, and that each corner is crafted by someone who cares. That belief guides every home Architage designs and builds: a home a family can live in, and hand down."
+          ],
+          "ImageUrl": "assets/img/rajeswari-portrait.jpg",
+          "ImagePosition": "50% 40%"
+        },
+        {
+          "Name": "Anusree M. M.",
+          "Role": "Director",
+          "Credentials": "Postgraduate in Computer Science",
+          "Bio": [
+            "Anusree M. M. is a postgraduate in Computer Science with an interest in family business and entrepreneurship. Her academic background, combined with her involvement in business, gives her a balanced perspective on management, innovation and business development. She also has a keen interest in traditional houses and heritage architecture, appreciating their timeless beauty, cultural values and unique design elements.",
+            "As a Director of ARCHITAGE, she aims to contribute to the company's growth through effective planning, teamwork and business development. She believes in building a company that values quality, trust and customer satisfaction.",
+            "Her vision is to support a business that combines creativity, quality and sustainability while preserving the charm of traditional architecture and creating lasting value for its clients and communities."
+          ],
+          "ImageUrl": "assets/img/anusree-m-m-portrait.jpg",
+          "ImagePosition": "50% 40%"
+        }
+      ]
+    },
+    "Team": {
+      "Heading": "Our team",
+      "Description": "The people who keep every project running smoothly, from the office to the site.",
+      "Members": [
+        {
+          "Name": "Devika",
+          "Role": "Site Manager",
+          "Description": "14 years of experience in customer relationships.",
+          "ImageUrl": ""
+        }
+      ]
+    },
+    "Vision": {
+      "Heading": "Our shared vision",
+      "Quote": "Tradition is not just something we preserve; it is something we bring to life.",
+      "Description": "At Architage, we envision creating homes that honour the architectural richness of Kerala while embracing the comfort and expectations of modern living. Every project is an opportunity to preserve a legacy, celebrate craftsmanship and create spaces that stand the test of time."
+    },
+    "Press": [
+      "Media name",
+      "Media name",
+      "Award name",
+      "Award name"
+    ]
+  }
+}

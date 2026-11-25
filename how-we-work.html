@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How we work | Architage</title><meta name="description" content="Clear stages from first site visit to handing over the keys."><meta name="theme-color" content="#1C2A06">
+<link rel="icon" href="assets/img/favicon.png"><link rel="preload" href="assets/data/catalog.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css"><style>
+.head{padding:56px 0 72px;display:grid;grid-template-columns:1fr 460px;gap:64px;align-items:end}
+.head h1{font-size:76px;color:var(--forest)}
+.head p{color:var(--muted);font-size:18px}
+.sum{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:8px;background:var(--paper);margin-bottom:96px}
+.sum div{padding:28px 32px;border-left:1px solid var(--line)}
+.sum div:first-child{border:0}
+.sum b{display:block;font:400 30px Marcellus;color:var(--forest)}
+.sum span{font-size:15px;color:var(--muted)}
+.stages{position:relative}
+.stages:before{content:"";position:absolute;left:39px;top:40px;bottom:40px;width:2px;background:linear-gradient(var(--green),var(--teak))}
+.st{display:grid;grid-template-columns:80px 1fr 420px;gap:48px;padding-bottom:72px;position:relative}
+.st .n{width:80px;height:80px;border-radius:50%;background:var(--lime);border:2px solid var(--green);display:grid;place-items:center;font:400 32px Marcellus;color:var(--green);position:relative;z-index:1}
+.st:nth-child(n+4) .n{border-color:var(--teak);color:#8A5A0A}
+.st h2{font-size:44px;color:var(--forest);margin-top:10px}
+.st .when{font-size:15px;color:var(--teak);font-weight:500;margin:8px 0 16px}
+.st p{color:#3A3F31;font-size:18px;max-width:560px;line-height:1.6}
+.st .get{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:24px 28px;align-self:start;margin-top:10px}
+.st .get h4{font:500 15px Outfit;color:var(--green);margin-bottom:10px}
+.st .get li{list-style:none;font-size:15px;padding:6px 0 6px 22px;position:relative;border-bottom:1px solid var(--line)}
+.st .get li:last-child{border:0}
+.st .get li:before{content:"";position:absolute;left:0;top:14px;width:8px;height:8px;border-radius:2px;background:var(--teak);transform:rotate(45deg)}
+.st .get .pay{display:flex;justify-content:space-between;margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.st .get .pay b{color:var(--ink);font-weight:500}
+.st .ph{height:220px;border-radius:6px;overflow:hidden;margin-top:24px;max-width:560px}
+.pays{background:var(--forest);color:var(--lime)}
+.pays .wrap{padding-top:96px;padding-bottom:96px;display:grid;grid-template-columns:420px 1fr;gap:96px}
+.pays h2{font-size:48px}
+.pays p{color:rgba(237,239,230,.75);margin-top:18px}
+.ptable{border-top:1px solid var(--line-lt)}
+.prow{display:grid;grid-template-columns:1fr 120px 300px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line-lt);font-size:16px}
+.prow b{font:400 26px Marcellus;color:var(--teak-lt)}
+.prow .bar{height:6px;background:rgba(237,239,230,.12);border-radius:3px}
+.prow .bar i{display:block;height:100%;background:var(--teak);border-radius:3px}
+.promise{padding:112px 0;display:grid;grid-template-columns:repeat(3,1fr);gap:48px}
+.promise h3{font-size:30px;color:var(--forest);margin-bottom:12px}
+.promise p{color:var(--muted)}
+.promise .ic{width:56px;height:56px;margin-bottom:24px}
+.mini-foot{background:var(--forest);color:rgba(237,239,230,.7);padding:28px 0;font-size:14px}
+.mini-foot .wrap{display:flex;justify-content:space-between}
+/* mobile */
+@media (max-width:600px){
+.head{grid-template-columns:1fr;gap:14px;padding:16px 0 28px}
+.head h1{font-size:42px}
+.head p{font-size:17px}
+.sum{grid-template-columns:1fr;margin-bottom:56px}
+.sum div{border-left:0;border-top:1px solid var(--line);padding:18px 20px}
+.sum div:first-child{border-top:0}
+.sum b{font-size:24px}
+.stages:before{left:23px;top:24px}
+.st{grid-template-columns:48px 1fr;gap:18px;padding-bottom:48px}
+.st .n{width:48px;height:48px;font-size:22px}
+.st .get{grid-column:2;margin-top:0;padding:18px}
+.st h2{font-size:30px;margin-top:4px}
+.st p{font-size:16px}
+.st .ph{height:170px}
+.pays{margin-top:64px!important}
+.pays .wrap{grid-template-columns:1fr;gap:32px;padding-top:56px;padding-bottom:56px}
+.pays h2{font-size:34px}
+.prow{grid-template-columns:1fr 60px;row-gap:10px}
+.prow b{font-size:22px;text-align:right}
+.prow .bar{grid-column:1/-1}
+.promise{grid-template-columns:1fr;gap:36px;padding:64px 0}
+.promise h3{font-size:26px}
+}
+
+.cta-b{background:var(--green);color:var(--lime);border-radius:8px;padding:56px 64px;display:flex;justify-content:space-between;align-items:center;gap:40px;margin-bottom:112px}
+.cta-b h2{font-size:44px}.cta-b p{color:rgba(237,239,230,.8);margin-top:10px}
+.st .n{transition:background .3s,color .3s}.st:hover .n{background:var(--green);color:var(--lime)}
+@media (max-width:1100px) and (min-width:601px){.st{grid-template-columns:80px 1fr 340px;gap:32px}}
+@media (max-width:900px) and (min-width:601px){.st{grid-template-columns:64px 1fr}.st .get{grid-column:2}.pays .wrap{grid-template-columns:1fr}.promise{grid-template-columns:1fr}}
+@media (max-width:600px){.cta-b{flex-direction:column;align-items:stretch;padding:32px 24px;margin-bottom:64px}.cta-b h2{font-size:30px}.cta-b .btn{justify-content:center}}</style></head>
+<body data-page="process"><a class="skip" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<main id="main"><div class="loading" aria-live="polite"><span></span>Loading</div></main>
+<div id="site-footer"></div>
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/catalog.js" defer></script>
+</body></html>

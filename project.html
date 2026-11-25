@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Project | Architage</title><meta name="description" content="A home designed and built by Architage."><meta name="theme-color" content="#1C2A06">
+<link rel="icon" href="assets/img/favicon.png"><link rel="preload" href="assets/data/catalog.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css"><style>
+.crumb{font-size:15px;color:var(--muted);padding:20px 0 28px}
+.crumb a{color:var(--green)}
+.title{display:grid;grid-template-columns:1fr auto;align-items:end;gap:40px;padding-bottom:36px}
+.title h1{font-size:84px;color:var(--forest)}
+.title p{color:var(--muted);font-size:19px;margin-top:14px;max-width:620px}
+.hero-img{height:640px;overflow:hidden;border-radius:4px;position:relative}
+.hero-img .count{position:absolute;right:24px;bottom:24px;background:rgba(28,42,6,.82);color:var(--lime);border-radius:999px;padding:10px 18px;font-size:14px}
+.body{display:grid;grid-template-columns:1fr 380px;gap:96px;padding:88px 0}
+.facts{position:relative}
+.facts .box{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:32px}
+.facts dl div{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line);font-size:16px}
+.facts dl div:last-child{border:0}
+.facts dt{color:var(--muted)}
+.facts dd{font-weight:500;text-align:right}
+.facts .btn{width:100%;justify-content:center;margin-top:24px}
+.facts .wa{display:block;text-align:center;margin-top:14px;font-size:15px;color:var(--green);font-weight:500}
+.story h2{font-size:40px;color:var(--forest);margin-bottom:18px}
+.story p{font-size:19px;line-height:1.7;color:#3A3F31;max-width:680px;margin-bottom:18px}
+.story .part{padding-bottom:48px;margin-bottom:48px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:160px 1fr}
+.story .part .lbl{font-size:15px;color:var(--teak);font-weight:500;padding-top:12px}
+.story .part:last-child{border:0}
+.pair{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;margin-bottom:24px}
+.pair div{height:520px;overflow:hidden;border-radius:4px}
+.compare{position:relative;height:640px;border-radius:4px;overflow:hidden;margin:96px 0 24px}
+.compare .left{position:absolute;inset:0;width:50%;overflow:hidden;filter:grayscale(1) contrast(1.15) brightness(1.1)}
+.compare .left img{width:1248px;height:640px;object-fit:cover;max-width:none}
+.compare .left:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(58,82,2,.08) 0 1px,transparent 1px 40px),repeating-linear-gradient(90deg,rgba(58,82,2,.08) 0 1px,transparent 1px 40px);mix-blend-mode:multiply}
+.compare .handle{position:absolute;left:50%;top:0;bottom:0;width:2px;background:var(--lime);transform:translateX(-1px)}
+.compare .handle span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:var(--lime);display:grid;place-items:center;font:500 14px Outfit;color:var(--forest);box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.compare .lab{position:absolute;top:24px;background:rgba(28,42,6,.82);color:var(--lime);padding:8px 16px;border-radius:999px;font-size:14px}
+.cap{color:var(--muted);font-size:15px}
+.quote{background:var(--forest);color:var(--lime);margin-top:96px}
+.quote .wrap{padding-top:96px;padding-bottom:96px;display:grid;grid-template-columns:1fr 300px;gap:80px;align-items:center}
+.quote blockquote{font:400 38px/1.32 Marcellus}
+.quote cite{display:block;font-style:normal;margin-top:24px;color:rgba(237,239,230,.7)}
+.quote .ph{height:340px}
+.next{display:flex;justify-content:space-between;align-items:center;padding:56px 0 96px}
+.next small{display:block;color:var(--muted);font-size:14px}
+.next strong{font:400 32px Marcellus;color:var(--forest)}
+.mini-foot{background:var(--forest);color:rgba(237,239,230,.7);padding:28px 0;font-size:14px;border-top:1px solid var(--line-lt)}
+.mini-foot .wrap{display:flex;justify-content:space-between}
+/* mobile */
+@media (max-width:600px){
+.crumb{padding:4px 0 14px;font-size:13px}
+.title{grid-template-columns:1fr;gap:16px;padding-bottom:24px}
+.title h1{font-size:40px}
+.title p{font-size:16px}
+.title .tag{justify-self:start}
+.hero-img{height:280px;margin:0 -20px;border-radius:0}
+.body{grid-template-columns:1fr;gap:40px;padding:36px 0}
+.facts{order:-1}
+.facts .box{padding:20px}
+.story .part{grid-template-columns:1fr;padding-bottom:30px;margin-bottom:30px}
+.story .part .lbl{padding:0 0 6px}
+.story h2{font-size:28px}
+.story p{font-size:17px}
+.pair{grid-template-columns:1fr;gap:12px}
+.pair div{height:240px}
+.compare{height:300px;margin:56px 0 16px}
+.compare .left img{width:350px;height:300px}
+.quote{margin-top:56px}
+.quote .wrap{grid-template-columns:1fr;gap:28px;padding-top:56px;padding-bottom:56px}
+.quote blockquote{font-size:26px}
+.quote .ph{height:260px}
+.next{padding:36px 0 48px}
+.next strong{font-size:22px}
+}
+
+.hero-img button{position:absolute;right:24px;bottom:24px;background:rgba(28,42,6,.82);color:var(--lime);border-radius:999px;padding:10px 18px;font-size:14px;transition:background .25s}
+.hero-img button:hover{background:var(--forest)}
+.hero-img img{animation:slowzoom 14s ease-out both}
+@keyframes slowzoom{from{transform:scale(1.08)}to{transform:scale(1)}}
+.pair a{display:block;height:520px;overflow:hidden;border-radius:4px;cursor:zoom-in}
+.pair{grid-template-columns:1.4fr 1fr 1fr}
+.ba{position:relative;height:640px;border-radius:4px;overflow:hidden;margin:96px 0 16px;user-select:none}
+.ba>img,.ba-l img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ba-l{position:absolute;inset:0}.ba-l.sketch{filter:grayscale(1) contrast(1.15) brightness(1.1)}
+.ba-l.sketch:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(58,82,2,.08) 0 1px,transparent 1px 40px),repeating-linear-gradient(90deg,rgba(58,82,2,.08) 0 1px,transparent 1px 40px)}
+.ba-h{position:absolute;top:0;bottom:0;width:2px;background:var(--lime);transform:translateX(-1px);pointer-events:none}
+.ba-h span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:var(--lime);display:grid;place-items:center;font:500 13px Outfit;color:var(--forest);box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba .lab{position:absolute;top:24px;background:rgba(28,42,6,.82);color:var(--lime);padding:8px 16px;border-radius:999px;font-size:14px;pointer-events:none}
+.next a{display:block;transition:transform .3s}.next a:hover{transform:translateX(4px)}.next a:first-child:hover{transform:translateX(-4px)}
+.next a:hover strong{color:var(--green)}
+@media (max-width:1100px) and (min-width:601px){.body{grid-template-columns:1fr 320px;gap:48px}.title h1{font-size:64px}}
+@media (max-width:900px) and (min-width:601px){.body{grid-template-columns:1fr}.facts{order:-1}.quote .wrap{grid-template-columns:1fr}}
+@media (max-width:600px){.pair{grid-template-columns:1fr 1fr}.pair a{height:180px}.pair a:first-child{grid-column:1/-1;height:240px}.ba{height:300px;margin:56px 0 16px}}</style></head>
+<body data-page="project"><a class="skip" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<main id="main"><div class="loading" aria-live="polite"><span></span>Loading</div></main>
+<div id="site-footer"></div>
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/catalog.js" defer></script>
+</body></html>

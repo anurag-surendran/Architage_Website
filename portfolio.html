@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio | Architage</title><meta name="description" content="Homes designed and built by Architage across India."><meta name="theme-color" content="#1C2A06">
+<link rel="icon" href="assets/img/favicon.png"><link rel="preload" href="assets/data/catalog.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css"><style>
+.head{padding:56px 0 40px;display:grid;grid-template-columns:1fr 420px;align-items:end;gap:48px}
+.head h1{font-size:76px;color:var(--forest)}
+.head p{color:var(--muted)}
+.filters{display:flex;align-items:center;gap:8px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);position:relative}
+.chip{height:42px;padding:0 15px;white-space:nowrap;font-size:14px;border-radius:999px;border:1px solid var(--line);display:inline-flex;align-items:center;gap:8px;font-size:15px;background:transparent}
+.chip.on{background:var(--forest);color:var(--lime);border-color:var(--forest)}
+.chip .c{font-size:13px;opacity:.7}
+.sel{height:42px;padding:0 14px;white-space:nowrap;border-radius:8px;background:var(--paper);border:1px solid var(--line);display:inline-flex;align-items:center;gap:22px;font-size:15px}
+.sel:after{content:"";width:7px;height:7px;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);transform:rotate(45deg) translateY(-3px)}
+.sep{width:1px;height:28px;background:var(--line);margin:0 8px}
+.view{margin-left:auto;display:flex;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:3px}
+.view span{padding:7px 14px;border-radius:6px;font-size:14px;color:var(--muted)}
+.view span.on{background:var(--lime-2);color:var(--ink);font-weight:500}
+.result{display:flex;justify-content:space-between;padding:22px 0 30px;font-size:15px;color:var(--muted)}
+.result b{color:var(--ink);font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:48px 24px}
+.card .ph{overflow:hidden;border-radius:4px;position:relative}
+.card .ph .tag{position:absolute;left:16px;top:16px}
+.card h3{font-size:28px;color:var(--forest);margin-top:18px}
+.card .meta{display:flex;gap:20px;color:var(--muted);font-size:15px;margin-top:4px}
+.card .meta span+span:before{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--teak);margin:0 14px 3px -10px}
+.w7{grid-column:span 7}.w5{grid-column:span 5}.w4{grid-column:span 4}.w6{grid-column:span 6}
+.h560 .ph{height:560px}.h460 .ph{height:460px}.h380 .ph{height:380px}
+.offset{margin-top:72px}
+.band{grid-column:1/-1;background:var(--forest);color:var(--lime);border-radius:8px;padding:48px 56px;display:flex;align-items:center;justify-content:space-between}
+.band h3{font-size:36px;max-width:620px}
+.band p{color:rgba(237,239,230,.75);margin-top:8px}
+.more{display:flex;justify-content:center;padding:72px 0 110px}
+.mini-foot{background:var(--forest);color:rgba(237,239,230,.7);padding:28px 0;font-size:14px}
+.mini-foot .wrap{display:flex;justify-content:space-between}
+/* mobile */
+@media (max-width:600px){
+.head{grid-template-columns:1fr;gap:12px;padding:16px 0 24px}
+.head h1{font-size:42px}
+.filters{margin:0 -20px;padding:14px 20px;overflow:hidden}
+.chip{flex:none}
+.sep,.sel,.view{display:none}
+.result{padding:16px 0 22px;font-size:14px}
+.grid{grid-template-columns:1fr;gap:36px}
+.grid>*{grid-column:1/-1}
+.card .ph{height:260px}
+.offset{margin-top:0}
+.card h3{font-size:24px}
+.card .meta{font-size:14px}
+.band{flex-direction:column;align-items:stretch;gap:20px;padding:32px 24px}
+.band h3{font-size:26px}
+.band .btn{justify-content:center}
+.more{padding:48px 0 64px}
+}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.chip{cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.chip:not(.on):hover{border-color:var(--green)}
+.sel{padding:0 4px 0 0;position:relative}
+.sel select{appearance:none;-webkit-appearance:none;border:0;background:transparent;font:inherit;padding:0 30px 0 14px;height:40px;cursor:pointer;color:var(--ink)}
+.sel:after{position:absolute;right:14px;top:15px;pointer-events:none}
+.view .vbtn{padding:7px 14px;border-radius:6px;font-size:14px;color:var(--muted);transition:background .25s,color .25s}
+.view .vbtn.on{background:var(--lime-2);color:var(--ink);font-weight:500}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:44px 24px}
+.pcard{display:block;background:none;border:0;border-radius:0;transition:opacity .4s ease,transform .4s ease}
+.pcard.hide{display:none}
+.pcard .ph{height:360px;border-radius:6px;position:relative}
+.pcard .ph .tag{position:absolute;left:16px;top:16px}
+.pcard:first-child{grid-column:span 2}.pcard:first-child .ph{height:460px}
+.pcard h3{font:400 28px Marcellus;color:var(--forest);margin-top:18px;transition:color .3s}
+.pcard:hover h3{color:var(--green)}
+.pcard .meta{display:flex;gap:20px;color:var(--muted);font-size:15px;margin-top:4px;flex-wrap:wrap}
+.pcard .meta span+span:before{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--teak);margin:0 14px 3px -10px}
+.pcard .more{display:inline-block;margin-top:10px;font-size:15px;font-weight:500;color:var(--green);transition:transform .3s}
+.pcard:hover .more{transform:translateX(6px)}
+.pgrid.as-list{grid-template-columns:1fr;gap:0}
+.pgrid.as-list .pcard{display:grid;grid-template-columns:240px 1fr;gap:28px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line);grid-column:auto}
+.pgrid.as-list .pcard.hide{display:none}
+.pgrid.as-list .pcard .ph{height:160px}
+.pgrid.as-list .pcard h3{margin-top:0}
+.empty{text-align:center;padding:60px 0;color:var(--muted)}
+.empty p{margin-bottom:16px;font-size:18px}
+@media (max-width:1000px) and (min-width:601px){.pgrid{grid-template-columns:1fr 1fr}.pcard:first-child{grid-column:span 2}}
+@media (max-width:600px){
+ .filters{overflow-x:auto!important;scrollbar-width:none;flex-wrap:nowrap}
+ .filters::-webkit-scrollbar{display:none}
+ .sel{display:inline-flex!important;flex:none}
+ .sep{display:none}.view{display:flex!important;flex:none}
+ .pgrid{grid-template-columns:1fr;gap:32px}.pcard:first-child{grid-column:auto}.pcard .ph,.pcard:first-child .ph{height:260px}
+ .pgrid.as-list .pcard{grid-template-columns:110px 1fr;gap:14px}.pgrid.as-list .pcard .ph{height:90px}.pgrid.as-list .pcard h3{font-size:20px}.pgrid.as-list .more{display:none}
+ .band{margin:48px 0 64px!important}
+}</style></head>
+<body data-page="portfolio"><a class="skip" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<main id="main"><div class="loading" aria-live="polite"><span></span>Loading</div></main>
+<div id="site-footer"></div>
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/catalog.js" defer></script>
+</body></html>
